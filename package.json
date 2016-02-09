@@ -1,0 +1,12 @@
+{
+  "name": "brandai-gulp-example",
+  "version": "1.0.0",
+  "description": "Example Brand.ai sass/gulp integration",
+  "author": "Brand.ai",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-downloader": "^1.0.4",
+    "gulp-sass": "^2.1.1"
+  }
+}
