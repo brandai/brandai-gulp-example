@@ -1,6 +1,13 @@
 @import "./style-params";
 
 body {
-	background-color: $color-primary-color;
+	background-color: $color-acme-purple-4;
+	color: $color-acme-gray-1;
 }
 
+p {
+	font-weight :$font-paragraph-font-weight;
+	color: $font-paragraph-text-color;
+	font-size: $font-paragraph-font-size;
+	font-family: $font-paragraph-font-family;
+}
