@@ -5,9 +5,4 @@ body {
 	color: $color-acme-gray-1;
 }
 
-p {
-	font-weight :$font-paragraph-font-weight;
-	color: $font-paragraph-text-color;
-	font-size: $font-paragraph-font-size;
-	font-family: $font-paragraph-font-family;
-}
+p {  @include font-paragraph();  }

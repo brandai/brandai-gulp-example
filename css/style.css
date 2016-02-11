@@ -15,7 +15,7 @@ body {
   color: #222222; }
 
 p {
-  font-weight: 300;
   color: #222222;
+  font-weight: 300;
   font-size: 14px;
-  font-family: Roboto; }
+  font-family: Roboto, arial, helvetica, sans-serif; }
