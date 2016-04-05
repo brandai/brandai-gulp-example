@@ -16,3 +16,7 @@ Please note that variable names in style.scss are consistent with our example st
 1. Run `gulp icons` task to download and unzip all your icons to destination directory.
 2. Use your tool of choice to generate icons fonts, icon sprites or any other desired option. You can find more suggestions in this 
 [ link ] (https://css-tricks.com/mega-list-svg-information/#article-header-id-1).
+
+#### Images Integration
+1. Run `gulp images` task to download and unzip all your images to destination directory.
+2. You can then integrate them upon you needs in your build process.

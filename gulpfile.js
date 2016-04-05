@@ -1,11 +1,12 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var download = require('gulp-downloader');
-var unzip = require('gulp-unzip');
+var decompress = require('gulp-decompress');
 
 // Imported from Brand.ai
 var scssURL = 'https://assets.brand.ai/acme-demo/_style-params.scss';
-var iconsURL = 'https://assets.brand.ai/acme-demo/icons-zip';
+var iconsURL = 'https://assets.brand.ai/acme-demo-new/icons-zip';
+var imagesURL = 'https://assets.brand.ai/acme-demo-new/images-zip';
 
 gulp.task('sass', function () {
   gulp.src('./scss/**/*.scss')
@@ -22,5 +23,10 @@ gulp.task('styles', function(){
 });
 
 gulp.task('icons', function(){
-  return download(iconsURL).pipe(unzip()).pipe(gulp.dest('icons'));	
+  return download(iconsURL).pipe(decompress()).pipe(gulp.dest('icons'));
+});
+
+gulp.task('images', function(){
+  return download(imagesURL)
+          .pipe(decompress()).pipe(gulp.dest('images'));
 });
