@@ -8,7 +8,7 @@ Please note that variable names in style.scss are consistent with our example st
 1. run `npm install` to load project dependencies.
 
 #### Styles Integration
-1. Run `gulp styles` to fetch CSS styles from Brand.ai [sample project](https://brand.ai/styleguide/acme-demo).
+1. Run `gulp styles` to fetch CSS styles from Brand.ai [sample project](https://brand.ai/acme-demo-new/style).
 2. Run `gulp sass` to compile sass into css. 
 3. You can also find an example how to `watch` for sass changes in `gulp sass:watch` task.
 
